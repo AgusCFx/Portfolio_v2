@@ -17,8 +17,8 @@ img, picture, video, iframe, figure{
     width: 100%;
     display: block;
         /* OPCIONALES: escala dentro de la imagen para no deformarla al setear alto y ancho desproporcional */
-    /* object-fit: cover; */
-    /* object-position: center center; */
+    object-fit: cover; 
+    object-position: center center;
 }
 
 /* Enlases a cajas */
@@ -37,7 +37,7 @@ html{
 
 /* Estilos por defecto de fuente desactivados */
 h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em{
-    font-size: 1em;
+    font-size: 1rSem;
     font-weight: inherit;
     font-style: inherit;
     text-decoration: none;
