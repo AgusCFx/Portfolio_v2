@@ -1,0 +1,7 @@
+body{
+    background: linear-gradient(135deg, var(--violeta) 0%, var(--azul) 100%) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
