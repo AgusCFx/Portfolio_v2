@@ -12,7 +12,7 @@ function App() {
       <BoxNeon component={<Home/>} rhomb={true}/>
       <BoxNeon component={<About/>} rhomb={true} />
       <BoxNeon component={<Projects/>} rhomb={false}/>  
-      <BoxNeon component={<Footer/>} rhomb={true}/>
+      <BoxNeon component={<Footer/>} rhomb={false}/>
     </div>
   )
 }

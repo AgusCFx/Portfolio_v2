@@ -1,5 +1,6 @@
 .about{
     padding: 0 10px 50px 10px;
+    max-width: 1500px;
 }
 .about__techsImages{
     margin-top: 20px;

@@ -1,0 +1,50 @@
+footer{
+    width: 100%;
+    height: 100%;
+    max-width: 1500px;
+}
+
+/* Footer Contacts */
+.footerContacts{
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+.footerContacts__button{
+    height: 100%;
+    width: 53%;
+    display: inline-block;
+    position: absolute;
+    background-color: var(--fucsia);
+}
+.footerContacts__button a{
+    display: flex;
+    justify-content: center;
+}
+.footerContacts__button a img{
+    height: 100px;
+    width: 100px;
+}
+
+.githubButton{
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+    left: 0;
+}
+.githubButton a img{
+    margin-right: 50px;
+}
+.linkedinButton{
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+    left: 47%;
+}
+.linkedinButton a img{
+    margin-left: 50px;
+}
+
+/* Footer Info */
+.footerInfo{
+    text-align: center;
+}
+.footerInfo p{
+    margin: 30px 0;
+}
