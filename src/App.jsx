@@ -10,9 +10,9 @@ function App() {
     
     <div className="App">
       <BoxNeon component={<Home/>} rhomb={true}/>
-      <BoxNeon component={<About/>} />
-      <BoxNeon component={<Projects/>}/>  
-      <BoxNeon component={<Footer/>}/>
+      <BoxNeon component={<About/>} rhomb={true} />
+      <BoxNeon component={<Projects/>} rhomb={false}/>  
+      <BoxNeon component={<Footer/>} rhomb={true}/>
     </div>
   )
 }
