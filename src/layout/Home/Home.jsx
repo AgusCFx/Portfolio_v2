@@ -1,5 +1,5 @@
 import './home.css'
-import Lorem from '/assets/images/lorem-ipsum.jpg'
+import avatar from '/assets/images/avatar/aguscfxTransparent.png'
 
 export const Home = () => {
   return (
@@ -15,7 +15,7 @@ export const Home = () => {
           </p>
         </div>
         <div className="home__image">
-          <img src={Lorem} alt="" />
+          <img src={avatar} alt="" />
         </div>
       </div>
     </header>

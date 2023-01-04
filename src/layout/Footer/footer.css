@@ -3,12 +3,16 @@ footer{
     height: 100%;
     max-width: 1500px;
 }
+footer:hover .footerContacts{
+    filter: drop-shadow(0px 0 5px var(--celeste));
+}
 
 /* Footer Contacts */
 .footerContacts{
     height: 150px;
     width: 100%;
     position: relative;
+    filter: drop-shadow(0px 0 5px var(--rosa));
 }
 .footerContacts__button{
     height: 100%;
@@ -16,6 +20,9 @@ footer{
     display: inline-block;
     position: absolute;
     background-color: var(--fucsia);
+}
+.footerContacts__button:hover{
+    background-color: var(--celeste);
 }
 .footerContacts__button a{
     display: flex;
@@ -47,4 +54,11 @@ footer{
 }
 .footerInfo p{
     margin: 30px 0;
+}
+
+@media screen and (max-width: 500px){
+    .githubButton a img,
+    .linkedinButton a img{
+        margin: 0;
+    }
 }
