@@ -1,7 +1,7 @@
 {
-  "homepage":"https://aguscfx.github.io/Portfolio_v2",
+  "homepage":"https://aguscfx.github.io/Portfolio_v2/",
   "name": "portfolio_v2",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
