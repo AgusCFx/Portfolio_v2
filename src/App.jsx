@@ -8,7 +8,7 @@ import { Projects } from './layout/Portfolio/Projects'
 function App() {
   return (
     
-    <div className="App">
+    <div className="App crt">
       <BoxNeon component={<Home/>} rhomb={true}/>
       <BoxNeon component={<About/>} rhomb={true} />
       <BoxNeon component={<Projects/>} rhomb={false}/>  
