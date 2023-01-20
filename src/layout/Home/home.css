@@ -40,4 +40,24 @@ hr{
     filter: drop-shadow(0px 0 25px var(--azul))
 }
 
+/* Settings button */
+.crtButton{
+    position:fixed;
+    z-index: 2;
+    top: 20px;
+    right: 20px;
+    background-color: var(--fucsia);
+    height: 60px;
+    width: 100px;
+    clip-path: polygon(30px 0, 100% 0, 100% 100%, 0 100%, 0 30px);
+}
+.crtButton:hover{
+    background-color: var(--celeste);
+}
 
+.crtButton img{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    padding-left: 8px;
+}
