@@ -7,6 +7,10 @@ Tecnologias utilizadas: ReactJS, ViteJS, CSS3
 Porfolio diseñado y desarrollado por mi para presentar proyectos Full-Stack a medida que voy adquiriendo experiencia en programación.
 
 ## Registro de cambios
+
+### v2.1.1
+- Solucionado error menor que no permitia mostrar la nueva version de la pagina.
+
 ### v2.1.0
 - Vista en modo CRT y boton flotante para alternar el efecto
 - Logo cambiado a forma de circulo
